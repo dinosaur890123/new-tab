@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>New Tab</title>
-  <link rel="stylesheet" href="newtab.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 id="clock"></h1>
-  <form action="https://www.google.com/search">
-    <input name="q" placeholder="Search" autofocus>
-  </form>
-  <script src="newtab.js"></script>
+  <main>
+    <h1 id="clock">--:--</h1>
+    <p id="greet"></p>
+    <form action="https://www.google.com/search">
+      <input name="q" placeholder="Search…" autofocus autocomplete="off">
+    </form>
+    <p id="weather">Loading weather…</p>
+    <nav>
+      <a href="https://github.com">GitHub</a>
+      <a href="https://youtube.com">YouTube</a>
+      <a href="https://mail.google.com">Gmail</a>
+    </nav>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
+ 

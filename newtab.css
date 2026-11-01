@@ -6,3 +6,10 @@ body {
   background: #1e1e2e;
   color: #1e267e;
 }
+
+input {
+  outline: none;
+  border-radius: 67px;
+  background: #ffffff14;
+}
+
