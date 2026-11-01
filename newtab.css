@@ -1,11 +1,13 @@
 body {
   margin: 0;
   height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(120deg, #1a1033, #0f2a3d, #2b1a3d);
+  background: #a8c6e9;
   color: #1e267e;
-  
 }
 
 input {
