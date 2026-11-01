@@ -3,8 +3,9 @@ body {
   height: 100vh;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: #1e1e2e;
+  background: linear-gradient(120deg, #1a1033, #0f2a3d, #2b1a3d);
   color: #1e267e;
+  
 }
 
 input {
@@ -13,3 +14,7 @@ input {
   background: #ffffff14;
 }
 
+nav {
+  display: flex;
+  gap: 1.67rem;
+}
